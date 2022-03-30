@@ -1,0 +1,16 @@
+.root
+{
+    -fx-background-color: #FFC0CB;
+    -fx-font-size: 20pt;
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom right, #FF7F50, #6A5ACD);
+    -fx-background-radius: 15 15 25 25;
+    -fx-text-fill: #383838;
+}
+
+.label {
+    -fx-background-color: linear-gradient(to bottom right, #FF7F50, #6A5ACD);
+    -fx-background-radius: 15 15 25 25;
+}

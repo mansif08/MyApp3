@@ -1,0 +1,23 @@
+.split-pane
+{
+    -fx-background-color: #FFC0CB;
+}
+
+.button {
+    -fx-background-color: #FFC0CB;
+
+  //  -fx-text-fill: #FFC0CB;
+}
+
+.datepicker {
+    -fx-background-color: #FFC0CB;
+
+    //-fx-text-fill: #FFC0CB;
+}
+
+.list-view{
+    -fx-background-color: #FFC0CB;
+}
+.text-field{
+    -fx-background-color: #FFC0CB;
+}

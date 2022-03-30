@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="451.0" prefWidth="395.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BudgetTracker.PlanController">
+    <children>
+        <TitledPane animated="false" prefHeight="27.0" prefWidth="393.0" text="Plan your expense" textFill="#942c2c">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="0.0" prefWidth="200.0" />
+            </content>
+        </TitledPane>
+        <Label layoutX="92.0" layoutY="280.0" prefHeight="20.0" prefWidth="249.0" text="Estimation of  Your Expenses (Per day) :" textFill="#a63e3e">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label layoutX="103.0" layoutY="312.0" prefHeight="18.0" prefWidth="40.0" text="Food :" />
+        <Label layoutX="103.0" layoutY="351.0" prefHeight="18.0" prefWidth="91.0" text="Transportation :" />
+        <Label layoutX="103.0" layoutY="385.0" prefHeight="18.0" prefWidth="91.0" text="Health :" />
+        <Label layoutX="104.0" layoutY="417.0" prefHeight="18.0" prefWidth="48.0" text="Others :" />
+        <Label fx:id="budget" layoutX="101.0" layoutY="243.0" prefHeight="20.0" prefWidth="224.0" text="You have a budget of ---- /day" textFill="#bf3333" />
+      <TextField fx:id="getFood" layoutX="234.0" layoutY="308.0" prefHeight="26.0" prefWidth="74.0" />
+      <TextField fx:id="getTransportation" layoutX="235.0" layoutY="347.0" prefHeight="26.0" prefWidth="73.0" />
+      <TextField fx:id="getHealth" layoutX="235.0" layoutY="381.0" prefHeight="26.0" prefWidth="74.0" />
+      <TextField fx:id="getOthers" layoutX="236.0" layoutY="413.0" prefHeight="26.0" prefWidth="74.0" />
+      <Label layoutX="99.0" layoutY="207.0" prefHeight="18.0" prefWidth="110.0" text="Remaining Balance :" />
+      <TextField fx:id="RemBalance" layoutX="231.0" layoutY="203.0" prefHeight="26.0" prefWidth="79.0" />
+      <Label layoutX="45.0" layoutY="34.0" prefHeight="20.0" prefWidth="290.0" text="Set Percentages of Costs (Upto 100 percent)  :" textFill="#8c3434">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="71.0" prefHeight="18.0" prefWidth="40.0" text="Food :" />
+      <TextField fx:id="setFood" layoutX="96.0" layoutY="69.0" prefHeight="26.0" prefWidth="54.0" />
+      <TextField fx:id="setTransportation" layoutX="280.0" layoutY="68.0" prefHeight="26.0" prefWidth="74.0" />
+      <Label layoutX="189.0" layoutY="73.0" text="Transportation :" />
+      <Label layoutX="49.0" layoutY="112.0" text="Health :" />
+      <TextField fx:id="setHealth" layoutX="96.0" layoutY="107.0" prefHeight="26.0" prefWidth="54.0" />
+      <Label layoutX="192.0" layoutY="111.0" prefHeight="18.0" prefWidth="41.0" text="Others :" />
+      <TextField fx:id="setOthers" layoutX="280.0" layoutY="107.0" prefHeight="26.0" prefWidth="74.0" />
+      <Label layoutX="155.0" layoutY="73.0" text="\%" />
+      <Label layoutX="358.0" layoutY="73.0" text="\%" />
+      <Label layoutX="155.0" layoutY="111.0" text="\%" />
+      <Label layoutX="358.0" layoutY="111.0" text="\%" />
+      <Button fx:id="Submit" layoutX="162.0" layoutY="152.0" mnemonicParsing="false" onAction="#HandleSubmit" text="Submit" />
+      <Label fx:id="validInput" layoutX="244.0" layoutY="156.0" prefHeight="18.0" prefWidth="102.0" textFill="#bf2828" />
+    </children>
+</AnchorPane>
