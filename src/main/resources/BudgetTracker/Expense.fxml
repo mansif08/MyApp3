@@ -7,7 +7,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="377.0" prefWidth="445.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BudgetTracker.ExpenseController">
+<AnchorPane prefHeight="377.0" prefWidth="445.0" stylesheets="@decorateBudget.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BudgetTracker.ExpenseController">
     <children>
         <ListView fx:id="eventList" layoutY="42.0" prefHeight="335.0" prefWidth="529.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="42.0" />
         <Separator layoutX="285.0" orientation="VERTICAL" prefHeight="43.0" prefWidth="6.0" />

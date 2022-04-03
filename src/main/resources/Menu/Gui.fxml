@@ -18,7 +18,7 @@
                </font>
             </Button>
             <DatePicker fx:id="datePicker" layoutX="211.0" layoutY="13.0" prefHeight="26.0" prefWidth="115.0" stylesheets="@../ToDoList/DesignToDo.css" />
-            <TextField fx:id="descriptionTextField" layoutX="338.0" layoutY="13.0" prefHeight="26.0" prefWidth="457.0" promptText="Add event description" stylesheets="@../ToDoList/DesignToDo.css" />
+            <TextField fx:id="descriptionTextField" layoutX="338.0" layoutY="13.0" prefHeight="26.0" prefWidth="457.0" promptText="Add event description" />
             <Button fx:id="popButton" layoutX="115.0" layoutY="12.0" mnemonicParsing="false" onAction="#popEvent" prefHeight="26.0" prefWidth="82.0" stylesheets="@../ToDoList/DesignToDo.css" text="Pop Event">
                <font>
                   <Font size="14.0" />

@@ -5,10 +5,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="431.0" prefWidth="349.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HealthTracker.HealthController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="431.0" prefWidth="349.0" stylesheets="@MenuStyle.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HealthTracker.HealthController">
     <children>
-        <TitledPane collapsible="false" prefHeight="51.0" prefWidth="349.0" text="My Health Tracker">
+        <TitledPane collapsible="false" prefHeight="51.0" prefWidth="349.0" stylesheets="@MenuStyle.css" text="My Health Tracker">
             <content>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="59.0" prefWidth="347.0" />
             </content>
@@ -16,17 +15,17 @@
                 <Font size="23.0" />
             </font>
         </TitledPane>
-        <Button fx:id="BmiButton" layoutX="21.0" layoutY="102.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="296.0" text="Calculate your BMI">
+        <Button fx:id="BmiButton" layoutX="21.0" layoutY="102.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="296.0" stylesheets="@MenuStyle.css" text="Calculate your BMI">
             <font>
                 <Font size="17.0" />
             </font>
         </Button>
-        <Button fx:id="CardiacButton" layoutX="21.0" layoutY="216.0" mnemonicParsing="false" onAction="#handleButtonAction2" prefHeight="25.0" prefWidth="296.0" text="Basic cardiac checkup">
+        <Button fx:id="CardiacButton" layoutX="21.0" layoutY="216.0" mnemonicParsing="false" onAction="#handleButtonAction2" prefHeight="25.0" prefWidth="296.0" stylesheets="@MenuStyle.css" text="Basic cardiac checkup">
             <font>
                 <Font size="17.0" />
             </font>
         </Button>
-        <Button fx:id="ExerButton" layoutX="21.0" layoutY="323.0" mnemonicParsing="false" onAction="#handleButtonAction3" prefHeight="38.0" prefWidth="296.0" text="Exercises for you">
+        <Button fx:id="ExerButton" layoutX="21.0" layoutY="323.0" mnemonicParsing="false" onAction="#handleButtonAction3" prefHeight="38.0" prefWidth="296.0" stylesheets="@MenuStyle.css" text="Exercises for you">
             <font>
                 <Font size="17.0" />
             </font>

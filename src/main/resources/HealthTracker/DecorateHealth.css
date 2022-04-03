@@ -1,0 +1,16 @@
+.root
+{
+    -fx-background-color: #FFC0CB;
+
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom right, #FF7F50, #6A5ACD);
+
+}
+.list-view
+{
+    -fx-background-color: linear-gradient(to bottom right, #FF7F50, #6A5ACD);
+
+}
+

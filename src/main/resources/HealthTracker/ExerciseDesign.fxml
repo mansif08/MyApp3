@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="343.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HealthTracker.ExerciseController">
+<AnchorPane prefHeight="400.0" prefWidth="343.0" stylesheets="@DecorateHealth.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HealthTracker.ExerciseController">
     <children>
         <TitledPane animated="false" prefHeight="35.0" prefWidth="343.0" text="Exercises for your well being" textFill="#8f1313">
             <content>

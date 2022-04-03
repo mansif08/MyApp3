@@ -132,8 +132,7 @@ public class EvaluateString
                 return a * b;
             case '/':
                 if (b == 0) {
-                    System.out.println("Invalid Division");
-                    return 0;
+                    throw new RuntimeException();
                 }
                 else
                     return a /( b*1.0);

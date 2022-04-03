@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="451.0" prefWidth="395.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BudgetTracker.PlanController">
+<AnchorPane prefHeight="451.0" prefWidth="395.0" stylesheets="@decorateBudget.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BudgetTracker.PlanController">
     <children>
         <TitledPane animated="false" prefHeight="27.0" prefWidth="393.0" text="Plan your expense" textFill="#942c2c">
             <content>

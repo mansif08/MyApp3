@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="358.0" prefWidth="307.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HealthTracker.BMIController">
+<AnchorPane prefHeight="358.0" prefWidth="307.0" stylesheets="@DecorateHealth.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HealthTracker.BMIController">
     <children>
         <TitledPane animated="false" layoutY="-5.0" prefHeight="25.0" prefWidth="309.0" text="Count Your BMI" textFill="#a64747">
             <content>

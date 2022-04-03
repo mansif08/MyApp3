@@ -89,10 +89,16 @@ public class MainController {
                 clearExp();
                 break;
             case "=":
-                double result= EvaluateString.evaluate(this.getExp().getText());
 
+                try {
+                    double result = EvaluateString.evaluate(this.getExp().getText());
 
-                setResult(String.valueOf(result));
+                    setResult(String.valueOf(String.format("%.2f", result)));
+                }
+                catch(Exception e)
+                {
+                    setResult("Invalid");
+                }
                 break;
             case "ANS" :
                 if(!getResult().getText().isEmpty())
